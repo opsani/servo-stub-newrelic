@@ -3,7 +3,7 @@ FROM python:3.6-slim
 WORKDIR /servo
 
 # Install dependencies
-RUN pip3 install requests PyYAML
+RUN pip3 install requests PyYAML python-dateutil
 
 # Install servo
 ADD https://github.com/opsani/servo/raw/master/servo \
