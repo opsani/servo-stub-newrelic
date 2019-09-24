@@ -10,7 +10,7 @@ ADD https://github.com/opsani/servo/raw/master/servo \
     https://github.com/opsani/servo/raw/master/adjust.py \
     https://github.com/opsani/servo/raw/master/measure.py \
     https://github.com/opsani/servo-stub/raw/master/adjust \
-    measure \
+    https://github.com/opsani/servo-newrelic/raw/master/measure \
     /servo/
 
 RUN chmod a+rwx /servo/adjust /servo/measure /servo/servo
